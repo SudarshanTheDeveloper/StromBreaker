@@ -36,4 +36,12 @@ public:
 	//Speed of GrayStoneCharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
 	float Speed;
+
+	// Checking Player in air or not
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
+	bool bIsInAir;
+
+	//Offset of GrayStoneCharacter
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
+	float MovementOffsetYaw;
 };
