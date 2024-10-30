@@ -15,7 +15,7 @@ class UCameraComponent;
 class UAnimMontage;
 
 UCLASS()
-class STORMBREAKER_API AGreyStoneCharacter : public ACharacter
+class STORMBREAKER_API AGreyStoneCharacter : public ACharacter//, public IGrayStoneCharacterInterface 
 {
 	GENERATED_BODY()
 
